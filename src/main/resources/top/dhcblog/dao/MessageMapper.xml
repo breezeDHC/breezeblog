@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="top.dhcblog.dao.MessageMapper" >
+  <resultMap id="BaseResultMap" type="top.dhcblog.entity.Message" >
+    <result column="39" property="39" jdbcType="VARCHAR" />
+    <result column="breezeD" property="breezeD" jdbcType="VARCHAR" />
+    <result column="hello，world" property="hello，world" jdbcType="VARCHAR" />
+    <result column="21/8/2018 19:52:28" property="21/8/2018 19:52:28" jdbcType="VARCHAR" />
+  </resultMap>
+  <select id="getMsgByPage" resultMap="BaseResultMap">
+    select
+    *
+    from message
+  </select>
+  <insert id="insert" parameterType="top.dhcblog.entity.Message">
+    insert into message (username, msg)
+    values (#{username,jdbcType=VARCHAR}, #{msg,jdbcType=VARCHAR})
+  </insert>
+</mapper>
