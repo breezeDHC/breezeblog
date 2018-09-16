@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>个人中心 | dhcblog</title>
+    <link rel="stylesheet" href="css/personalCenter.css" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/personalCenter.js"></script>
+</head>
+<body>
+    <div class="personal-container">
+        <div class="navigate-bar">
+            <ul>
+                <li><a href="index.html"><i class="fa fa-fw fa-home"></i>Home</a></li>
+                <li><a href="contact.html"><i class="fa fa-fw fa-user"></i>Contact</a></li>
+                <li><a href="archives.html"><i class="fa fa-fw fa-archive"></i>Archives</a></li>
+                <li><a href="tags.html"><i class="fa fa-fw fa-tags"></i>Tags</a></li>
+                <li><a href="search.html"><i class="fa fa-search fa-fw"></i>Search</a></li>
+            </ul>
+        </div>
+        <div class="content-container">
+            <div class="left-category">
+                <div class="user-info">
+                    <div class="avatar">
+                        <input type="file" style="display: none">
+                        <img src="img/public/avatar-default.jpg">
+                    </div>
+                    <span class="uname">Breeze</span>
+                    <p>注册于<span>2018-12-14</span></p>
+                </div>
+                <div class="cate">
+                    <ul>
+                        <li class="my-collection light">我的收藏</li>
+                        <li class="my-comment">我的评论</li>
+                        <li class="my-reply">我的回复</li>
+                        <li class="my-notice">我的通知</li>
+                        <li class="logout">退出登录</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="display-content">
+                    <div class="collection" id="my-collection">
+                        <ul>
+                            <li class="odd"><a class="article-title">使用shadowsocks搭建梯子</a><span class="cancel">取消</span></li>
+                            <li class="even"><a class="article-title">使用shadowsocks搭建梯子</a><span class="cancel">取消</span></li>
+                            <li class="odd"><a class="article-title">使用shadowsocks搭建梯子</a><span class="cancel">取消</span></li>
+                            <li class="even"><a class="article-title">使用shadowsocks搭建梯子</a><span class="cancel">取消</span></li>
+                            <li class="odd"><a class="article-title">使用shadowsocks搭建梯子</a><span class="cancel">取消</span></li>
+                            <li class="even"><a class="article-title">使用shadowsocks搭建梯子</a><span class="cancel">取消</span></li>
+                        </ul>
+                    </div>
+                <div class="comment" id="my-comment">
+                    <ul>
+                        <li class="odd">
+                            &nbsp;&nbsp;我&nbsp;&nbsp;<span class="time">3分钟前</span>&nbsp;&nbsp;评论了&nbsp;&nbsp;<a class="article-title">使用shadowsoks搭建梯子</a>
+                            <p>博主666啊</p>
+                            <span class="delete">删除</span>
+                        </li>
+                        <li class="even">
+                            &nbsp;&nbsp;我&nbsp;&nbsp;<span class="time">3分钟前</span>&nbsp;&nbsp;评论了&nbsp;&nbsp;<a class="article-title">使用shadowsoks搭建梯子</a>
+                            <p>博主666啊</p>
+                            <span class="delete">删除</span>
+                        </li>
+                        <li class="odd">
+                            &nbsp;&nbsp;我&nbsp;&nbsp;<span class="time">3分钟前</span>&nbsp;&nbsp;评论了&nbsp;&nbsp;<a class="article-title">使用shadowsoks搭建梯子</a>
+                            <p>博主666啊</p><span class="delete">删除</span>
+                        </li>
+                        <li class="even">
+                            &nbsp;&nbsp;我&nbsp;&nbsp;<span class="time">3分钟前</span>&nbsp;&nbsp;评论了&nbsp;&nbsp;<a class="article-title">使用shadowsoks搭建梯子</a>
+                            <p>博主666啊</p><span class="delete">删除</span>
+                        </li>
+                        <li class="odd">
+                            &nbsp;&nbsp;我&nbsp;&nbsp;<span class="time">3分钟前</span>&nbsp;&nbsp;评论了&nbsp;&nbsp;<a class="article-title">使用shadowsoks搭建梯子</a>
+                            <p>博主666啊</p><span class="delete">删除</span>
+                        </li>
+                        <li class="even">
+                            &nbsp;&nbsp;我&nbsp;&nbsp;<span class="time">3分钟前</span>&nbsp;&nbsp;评论了&nbsp;&nbsp;<a class="article-title">使用shadowsoks搭建梯子</a>
+                            <p>博主666啊</p><span class="delete">删除</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="reply" id="my-reply">
+                    <div class="small-title">
+                        <ul>
+                            <li class="mto light-color">我回复别人的</li>
+                            <li class="otm">别人回复我的</li>
+                        </ul>
+                    </div>
+                    <div class="reply-content">
+                        <ul class="mtou"  id="mto">
+                            <li class="odd">
+                                <span class="time">&nbsp;&nbsp;5小时前&nbsp;&nbsp;</span>在&nbsp;&nbsp;<a class="article-title">使用shadowsocks搭建梯子</a>
+                                &nbsp;&nbsp;下回复&nbsp;&nbsp;<span class="replyed-person">wind:&nbsp;</span><span class="reply-content">兄弟说的好啊</span>
+                                <span class="delete">删除</span>
+                            </li>
+                            <li class="even">
+                                <span class="time">&nbsp;&nbsp;5小时前&nbsp;&nbsp;</span>在&nbsp;&nbsp;<a class="article-title">使用shadowsocks搭建梯子</a>
+                                &nbsp;&nbsp;下回复&nbsp;&nbsp;<span class="replyed-person">wind:&nbsp;</span><span class="reply-content">兄弟说的好啊</span>
+                                <span class="delete">删除</span>
+                            </li>
+                            <li class="odd">
+                                <span class="time">&nbsp;&nbsp;5小时前&nbsp;&nbsp;</span>在&nbsp;&nbsp;<a class="article-title">使用shadowsocks搭建梯子</a>
+                                &nbsp;&nbsp;下回复&nbsp;&nbsp;<span class="replyed-person">wind:&nbsp;</span><span class="reply-content">兄弟说的好啊</span>
+                                <span class="delete">删除</span>
+                            </li>
+                            <li class="even">
+                                <span class="time">&nbsp;&nbsp;5小时前&nbsp;&nbsp;</span>在&nbsp;&nbsp;<a class="article-title">使用shadowsocks搭建梯子</a>
+                                &nbsp;&nbsp;下回复&nbsp;&nbsp;<span class="replyed-person">wind:&nbsp;</span><span class="reply-content">兄弟说的好啊</span>
+                                <span class="delete">删除</span>
+                            </li>
+                        </ul>
+                        <ul class="otmu"style="display:none;" id="otm">
+                            <li class="odd">
+                                <span class="reply-person">&nbsp;&nbsp;wind&nbsp;&nbsp;</span>在&nbsp;&nbsp;<a class="article-title">使用shadowsocks搭建梯子</a>
+                                &nbsp;&nbsp;下回复了你&nbsp;&nbsp;<span class="reply-content">兄弟说的好啊</span>
+                                <span class="delete">删除</span>
+                            </li>
+                            <li class="even">
+                                <span class="reply-person">&nbsp;&nbsp;wind&nbsp;&nbsp;</span>在&nbsp;&nbsp;<a class="article-title">使用shadowsocks搭建梯子</a>
+                                &nbsp;&nbsp;下回复了你&nbsp;&nbsp;<span class="reply-content">兄弟不从啊</span>
+                                <span class="delete">删除</span>
+                            </li>
+                            <li class="odd">
+                                <span class="reply-person">&nbsp;&nbsp;wind&nbsp;&nbsp;</span>在&nbsp;&nbsp;<a class="article-title">使用shadowsocks搭建梯子</a>
+                                &nbsp;&nbsp;下回复了你&nbsp;&nbsp;<span class="reply-content">兄弟说的好啊</span>
+                                <span class="delete">删除</span>
+                            </li>
+                            <li class="even">
+                                <span class="reply-person">&nbsp;&nbsp;wind&nbsp;&nbsp;</span>在&nbsp;&nbsp;<a class="article-title">使用shadowsocks搭建梯子</a>
+                                &nbsp;&nbsp;下回复了你&nbsp;&nbsp;<span class="reply-content">兄弟不从啊</span>
+                                <span class="delete">删除</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="notice" id="my-notice">
+                    <div class="small-title">
+                        <ul>
+                            <li class="reply-notice light-color">回复通知</li>
+                            <li class="report-notice">举报通知</li>
+                        </ul>
+                    </div>
+                    <div class="notice-content">
+                        <div class="reply-notice-com" style="display: none">
+                            <ul>
+                                <li class="odd"><span class="reply-person">&nbsp;&nbsp;Breeze</span>&nbsp;&nbsp;在&nbsp;&nbsp;<a class="article-title">如何科学上网</a>&nbsp;&nbsp;文章下回复了你：&nbsp;
+                                    <span class="reply-content">大兄弟，666啊</span></li>
+                                <li class="even"><span class="reply-person">&nbsp;&nbsp;Breeze</span>&nbsp;&nbsp;在&nbsp;&nbsp;<a class="article-title">如何科学上网</a>&nbsp;&nbsp;文章下回复了你：&nbsp;
+                                    <span class="reply-content">大兄弟，666啊</span></li>
+                                <li class="odd"><span class="reply-person">&nbsp;&nbsp;Breeze</span>&nbsp;&nbsp;在&nbsp;&nbsp;<a class="article-title">如何科学上网</a>&nbsp;&nbsp;文章下回复了你：&nbsp;
+                                    <span class="reply-content">大兄弟，666啊</span></li>
+                                <li class="even"><span class="reply-person">&nbsp;&nbsp;Breeze</span>&nbsp;&nbsp;在&nbsp;&nbsp;<a class="article-title">如何科学上网</a>&nbsp;&nbsp;文章下回复了你：&nbsp;
+                                    <span class="reply-content">大兄弟，666啊</span></li>
+                            </ul>
+                        </div>
+                        <div class="report-notice-com">
+                            <ul>
+                                <li class="reported-notice odd">
+                                    &nbsp;&nbsp;<span class="red">[被举报通知]</span>&nbsp;&nbsp;你在&nbsp;<a class="article-title">如何科学上网</a>&nbsp;文章中的发言内容<span class="reported-content">"我了个大擦擦"</span> 被举报审核通过，
+                                    请注意的言辞，三次举报审核通过将被封号。<span class="delete">删除</span>
+                                </li>
+                                <li class="report-reply-notice even">
+                                    &nbsp;&nbsp;<span class="red">[举报通知]</span>&nbsp;&nbsp;你在&nbsp;<a class="article-title">如何科学上网</a>&nbsp;文章中举报的用户<span class="reported-uname">Breeze</span>&nbsp;的发言内容<span class="reporte-content">
+                                "我去年弥勒隔壁"</span>审核已通过<span class="delete">删除</span>
+                                </li>
+                                <li class="reported-notice odd">
+                                    &nbsp;&nbsp;<span class="red">[被举报通知]</span>&nbsp;&nbsp;你在&nbsp;<a class="article-title">如何科学上网</a>&nbsp;文章中的发言内容<span class="reported-content">"我了个大擦擦"</span> 被举报审核通过，
+                                    请注意的言辞，三次举报审核通过将被封号。<span class="delete">删除</span>
+                                </li>
+                                <li class="report-reply-notice even">
+                                    &nbsp;&nbsp;<span class="red">[举报通知]</span>&nbsp;&nbsp;你在&nbsp;<a class="article-title">如何科学上网</a>&nbsp;文章中举报的用户<span class="reported-uname">Breeze</span>&nbsp;的发言内容<span class="reporte-content">
+                                "我去年弥勒隔壁"</span>审核<span>未通过</span><span class="delete">删除</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

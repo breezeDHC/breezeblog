@@ -1,0 +1,16 @@
+#cloud{
+    cursor: pointer;
+    width: 100%;
+}
+.tag-cloud{
+    width: 900px;
+}
+.tag-cloud-title{
+    font-size: 24px;
+    text-align: center;
+    color: #666666;
+}
+#cloud span{
+    display: inline-block;
+    margin: 10px;
+}

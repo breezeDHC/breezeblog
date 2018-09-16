@@ -1,0 +1,86 @@
+.left-content .content{
+
+}
+.left-content .content .article-header .title{
+    position: relative;
+    display: block;
+    width: 380px;
+   margin: 0 auto;
+    color: #555;
+    font-size: 26px;
+    font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+    font-weight: 400;
+}
+
+.left-content .content .article-header .title:after{
+    content: "";
+    width: 0;
+    height: 3px;
+    background: black;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transition: all .5s;
+}
+.left-content .content .article-header .title:hover:after{
+    left: 0%;
+    width: 100%;
+}
+.left-content .content .article-header ul{
+    overflow: hidden;
+    line-height: 40px;
+    color: #999;
+    font-size: 12px;
+    width: 290px;
+    margin: 0 auto;
+}
+.left-content .content .article-header ul li{
+    margin: 10px 5px;
+    height: 40px;
+
+}
+.article-info a{
+    color: #555;
+    text-decoration: solid;
+}
+.article-abstract{
+    padding-top: 20px;
+    box-sizing: border-box;
+    padding-left: 75px;
+    margin: 0 auto;
+    clear: both;
+}
+.article-abstract p{
+    color: #555;
+    font-size: 14px;
+    line-height: 2;
+}
+.read-more a{
+    display: block;
+    cursor: pointer;
+    border: 2px solid black;
+    text-align: center;
+    width: 120px;
+    height: 32px;
+    color: #fff;
+    font-size: 14px;
+    background: #222;
+    border-radius: 0;
+    line-height: 32px;
+    margin: 30px auto;
+}
+.read-more a:hover{
+    color: black;
+    background-color: white;
+}
+.article-footer{
+    width: 100%;
+    height: 1px;
+    padding: 60px 0;
+}
+.article-eof{
+    width: 160px;
+    height: 1px;
+    border-top: 1px silver solid;
+    margin: 0px auto;
+}

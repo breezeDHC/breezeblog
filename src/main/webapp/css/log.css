@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 420px;
+    height: 580px;
+}
+input{
+    outline: 0;
+}
+/*找回密码*/
+.getpwd-container{
+    position: absolute;
+    left: -420px;
+    margin: 30px 50px;
+    width: 320px;
+}
+/*注册*/
+.register-container{
+    position: absolute;
+    left: -420px;
+    margin: 30px 50px;
+    width: 320px;
+}
+/*登录*/
+.log-container{
+    position: absolute;
+    margin: 30px 50px;
+    width: 320px;
+}
+.first-line{
+    overflow: hidden;
+    vertical-align: middle;
+
+}
+.first-line h2{
+    font-weight: 400;
+    font-size: 24px;
+    color: #14191e;
+    float: left;
+}
+.first-line p{
+    margin-top: 30px;
+    float: right;
+    color: #787d82;
+    font-size: 14px;
+}
+.first-line p span{
+    color: #f01400;
+    cursor: pointer;
+}
+.second-line input{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 320px;
+    padding: 15px 14px;
+    background-color: white;
+    border: 1px solid #98a1a6;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #98a1a6;
+    margin-bottom: 20px;
+}
+.second-line span{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.log-container .third-line{
+    text-align: right;
+    color: #787d82;
+}
+.log-container .third-line span{
+    cursor: pointer;
+ }
+
+button{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 18px;
+    line-height: 24px;
+    border-radius: 24px;
+    border: 1px solid #f20d0d;
+    background-color: #f20d0d;
+    cursor: pointer;
+    color: white;
+    padding: 15px 0;
+    margin: 20px 0;
+}
+button:hover{
+    background-color: #CC0000;
+}
+.forth-line span{
+    font-size: 14px;
+    color: #666;
+}
+.forth-line i{
+    font-size: 20px;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 30px;
+}

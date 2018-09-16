@@ -1,0 +1,29 @@
+.left-content .content{
+    box-sizing: border-box;
+    padding-left: 75px;
+    color: #555;
+}
+.left-content .content p{
+    box-sizing: border-box;
+    width: 750px;
+
+    font-size: 14px;
+    line-height: 2;
+
+}
+.left-content .content ul{
+    overflow: hidden;
+    padding-left: 30px;
+}
+.left-content .content ul a{
+    color: #555;
+    border-bottom: 1px silver solid;
+}
+.left-content .content ul a:hover{
+    color: #111111;
+}
+.left-content .content ul li{
+    width: 100%;
+    float: left;
+    margin: 15px 0;
+}

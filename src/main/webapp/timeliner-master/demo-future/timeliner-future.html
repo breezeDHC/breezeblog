@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Timeliner.js Demo</title>
+	<!--<link rel="canonical" href="https://technotarek.com/timeliner/demo-future/timeliner-future.html" />-->
+	<link rel="stylesheet" href="css/timeliner-future.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="../js/vendor/venobox/venobox.css" type="text/css" media="screen">
+</head>
+<body>
+	<div class="container">
+		<div id="timeline" class="timeline-container">
+			<button class="timeline-toggle">+ expand all</button>
+			<br class="clear">
+			<div class="timeline-wrapper">
+				<h2 class="timeline-time"><span>2000</span></h2>
+				<dl class="timeline-series">
+					<span class="tick tick-before"></span>
+					<dt id="robots" class="timeline-event"><a>Robots</a></dt>
+					<span class="tick tick-after"></span>
+					<dd class="timeline-event-content" id="robotsEX">
+						<blockquote>
+							<p>The world is very different ever since the robotic uprising of the mid-nineties. There is no more unhappiness.</p>
+							<p>Affirmative.</p>
+							<p>We no longer say yes, instead we say affirmative.</p>
+							<p>Yes, affirmative.</p>
+							<p>Unless its a more colloquial situation with a few robo friends.</p>
+							<p>There is only one type of dance, the robot.</p>
+							<p>And the robo-boogie.</p>
+							<p>Oh yes, two kinds of dances.</p>
+						</blockquote>
+
+					<br class="clear">
+					</dd><!-- /.timeline-event-content -->
+				</dl><!-- /.timeline-series -->
+			</div><!-- /.timeline-wrapper -->
+
+			<button class="timeline-toggle">+ expand all</button>
+
+			<br class="clear">
+
+		</div><!-- /#timeline -->
+
+	</div><!-- /.container -->
+
+	<!-- GLOBAL CORE SCRIPTS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/vendor/venobox/venobox.min.js"></script>
+	<script type="text/javascript" src="../js/timeliner.js"></script>
+	<script>
+		$(document).ready(function() {
+			$.timeliner({
+				timelineContainer:'#timeline',
+			});
+			$('.venobox').venobox();
+		});
+
+	</script>
+
+</body>
+</html>
